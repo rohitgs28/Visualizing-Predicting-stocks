@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<title>Machine Learning</title>
+
+<div class="mainPageHTML">
+<div id="divSidebar" class="clsSidebarMainPage">
+<div class="listCompanies"><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for company.." title="Type in a name">
+<ul id="searchList" height= "600px"></ul>
+</div>
+
+<div class="clsMLAlgoSelection">
+<button type="button" id="mlSVM" class="clsBtn clsBtnSVM" onclick="onBtnSVMClick()">SVM</button>
+<button type="button" id="mlLinearRegression" class="clsBtn clsBtnLinearRegression" onclick="onBtnLinearRegressionClick()">Linear Regression</button>
+</div>
+
+<div id="idSVMSelections" class="clsSVMSelections">
+<input type="radio" name="svmOptions" value="Linear" checked onclick="onClickSVMSelection('Linear')"> Linear <br>
+<input type="radio" name="svmOptions" value="RBF" onclick="onClickSVMSelection('RBF')"> RBF <br>
+<input type="radio" name="svmOptions" value="Sigmoid" onclick="onClickSVMSelection('Sigmoid')"> Sigmoid
+</div>
+
+<div id="idLinearRegression" class="clsLinearRegression" hidden=true>
+<input type="checkbox" name="opt1" value="Open" onclick="onClickLinearRegression()"> OPEN<br>
+<input type="checkbox" name="opt2" value="Close" checked onclick="onClickLinearRegression()"> CLOSE<br>
+<input type="checkbox" name="opt3" value="Low" onclick="onClickLinearRegression()"> LOW<br>
+<input type="checkbox" name="opt4" value="High" onclick="onClickLinearRegression()"> HIGH<br>
+</div> 
+
+<div id="selectedOptions" class="clsSelectedOptions">Selected Values: </div>
+<button id="btnPredict" class="clsBtn clsBtnPredict" onclick="onBtnPredictClick()">PREDICT</button>
+</div>
+
+<div id="divMainPage" class="clsDivMainPage"></div>
+</div>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="machineLearningInitPage.js"></script>
+<script src="trendline.js"></script>
+
+<link rel="stylesheet" type="text/css" href="mainPage.css">
+<link rel="stylesheet" type="text/css" href="trendline.css">
+</html>

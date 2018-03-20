@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+    <script src="http://d3js.org/d3.v3.js"></script>
+</head>
+
+<body>
+	<button onclick="csvJSON()">Click</button>
+
+    <script>function csvJSON(){
+	var timeFormat = d3.time.format("%d-%b-%y")	;
+	d3.csv("prices_initial.csv", function(arrData) {
+   
+  var lenData = arrData.length;
+  var objTmp;
+  arrTransformedData = [];
+  objMapping = {};
+  
+  var strDate;
+  var index=1;
+  
+  var strSymbol;
+  
+  objTransformedData = {};
+  
+  for(var indexData=0; indexData< lenData;indexData++){
+  strDate = new Date(arrData[indexData].date);
+  strSymbol = arrData[indexData].symbol;
+  if(!objMapping.hasOwnProperty(strSymbol) ){
+  objMapping[strSymbol] = index;
+  index++;
+  }
+  
+  <!-- var rowVal = ((objMapping[strSymbol]-1)%5)+1; -->
+  var rowVal = (objMapping[strSymbol]-1);
+  
+  if(!objTransformedData.hasOwnProperty(rowVal)){
+  //outside -> company
+  objTransformedData[rowVal] = {};
+  
+  }
+  
+  var monthVal = strDate.getMonth()+1;
+  <!-- var colValue = ((monthVal-1)%5)+1; -->
+  var colValue = monthVal;
+  if(!objTransformedData[rowVal].hasOwnProperty(colValue)){
+  objTransformedData[rowVal][colValue] = [];
+  }
+  
+  objTmp = {
+  Name: objMapping[strSymbol],
+  Units:arrData[indexData].close,
+  Year: strDate.getMonth()+1
+  };
+  
+  
+  
+  objTmp2 = {
+  "date": timeFormat(strDate),
+			"close": arrData[indexData].close
+  };
+  objTransformedData[rowVal][colValue].push(objTmp2);
+  arrTransformedData.push(objTmp);
+  }
+
+});
+}
+</script>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  font-family: Lato,sans-serif;
+}
+
+#myInput {
+     background: url(/img/maps/icon_quick_search.png) no-repeat 0 8px #363a46;
+    color: #929cb3;
+    font-size: 11px;
+    border: none;
+    border-bottom: 2px solid #262931;
+    border-radius: 0;
+    display: block;
+    padding: 6px 20px 6px 37px;
+    margin: 0;
+    width: 100%;
+    outline: 0;
+}
+
+#searchList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#searchList li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+.selectionOptionsList{
+	padding:5px;
+}
+
+.selectionOptionsParent{
+	    cursor: pointer;
+    width: 160px;
+    height: 34px;
+    overflow: hidden;
+    background: url(/img/map-filter-dropdown.png) no-repeat 136px center #4a505f;
+    border: 1px solid #585f72;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 30px;
+    position: absolute;
+    background-color: #535a6b;
+    z-index: 10000;
+    color: #fff;
+    border: 1px solid #707990;
+    margin: 15px;
+    max-height: 350px;
+    overflow-y: auto;
+    width: 215px;
+}
+
+.selectionOptions{
+	color: #929cb3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.selectionOptionsList {
+	font-size: 10px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #929cb3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.selectionOptionsList{
+	    font-size: 10px;
+    line-height: 19px;
+    border-bottom: 1.5px solid #262931;
+    color: #929cb3;
+    display: block;
+    font-size: 10px;
+	line-height: 10px;
+    height: 20px;
+    overflow: hidden;
+	font-family: Lato,sans-serif;
+}
+
+.selectionOptionsList:hover{
+	 color: #fff;
+}
+.listCompanies {
+    /* margin-top: 57px; */
+    margin: 5px;
+    /* margin-top: 57px; */
+}
+#searchList li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+.clsComboBoxOptions{
+	background: #363a46;
+    width: 250px;
+	}
+
+.clsSidebarMainPage{
+	background: black;
+    width: 20%;
+    height: -webkit-fill-available;
+}
+.clsMLAlgoSelection{
+	display:flex;
+}
+.clsBtnSVM, .clsBtnLinearRegression {
+    flex: 1;
+    /* margin: 5px; */
+    padding: 5px;
+}
+.clsMLAlgoSelection {
+    display: flex;
+    margin: 5px;
+}
+.clsSVMSelections,
+.clsLinearRegression,
+.clsSelectedOptions {
+	color: #929cb3;
+	text-transform: uppercase;
+    /* padding: 2px; */
+    /* border-bottom: 1.5px solid #262931; */
+    color: #929cb3;
+    /* display: block; */
+    font-size: 12px;
+    line-height: 10px;
+    /* height: 20px; */
+    /* overflow: hidden; */
+    font-family: Lato,sans-serif;
+    line-height: 24px;
+}
+
+.clsSelectedOptions{
+	    /* padding: 2px; */
+    border: 1.5px solid #262931;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+}
