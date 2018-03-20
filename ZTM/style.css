@@ -1,0 +1,127 @@
+#chart {
+ /*  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  white-space: nowrap; 
+    overflow: hidden;
+	    margin-left: 10px;
+    text-overflow: ellipsis;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+text {
+  pointer-events: none;
+}
+
+.grandparent text {
+  font-weight: bold;
+  
+}
+
+rect {
+  /* fill: none; */
+   /* stroke: #fff;  */
+   stroke: black; 
+}
+
+rect.parent,
+.grandparent rect {
+  stroke-width: 2px;
+}
+
+rect.parent {
+    pointer-events: none;
+}
+
+.grandparent rect {
+  fill: black;
+  color:white
+}
+ g.children g .child {
+    stroke: none;
+    /* fill: black!important; */
+	opacity: 0.5;
+} 
+/* .children g {
+    display: none;
+} */
+
+.child title{
+	display : none;
+}
+
+.children rect.parent,
+.grandparent rect {
+  cursor: pointer;
+  color: white;
+  fill: #ffffff;
+}
+
+.children rect.parent {
+ /*  fill: #bbb;
+  fill-opacity: .5; */
+  fill: none!important;
+}
+
+.children:hover rect.child {
+  fill: #000;
+}
+
+.grandparent text,
+.tooltip{
+	width: auto;
+	text-transform: uppercase;
+	    font-weight: bold;
+    height: auto;
+    position: absolute;
+    background: white;
+    color: black;
+    /* padding: 10px; */
+	border-radius: 5px;
+	border-style: solid;
+    border-width: 3px;
+	 border-color: black;
+}
+
+.divCompanyName{
+    text-transform: uppercase;
+	padding: 5px;
+	    font-weight: 400;
+		    background: black;
+    color: white;
+}
+
+.ptext{
+	text-transform:uppercase;
+	font-weight:400;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	padding: 2px;
+	color: white!important;
+}
+.tooltipSVGGraph{
+	stroke: black;
+}
+.svgTooltip{
+	padding: 5px;
+}
+
+html{
+	background:black;
+}
+
+/* COMMON */
+
+.mainElementZoomable{
+	display: flex;
+}
+
+.clsComboBoxOptions{
+	background:white;
+}
