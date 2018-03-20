@@ -1,0 +1,571 @@
+﻿Name,Sector
+AES,Basic Industries
+APD,Basic Industries
+ALB,Basic Industries
+CF,Basic Industries
+CHD,Basic Industries
+GLW,Basic Industries
+EMN,Basic Industries
+ECL,Basic Industries
+FLR,Basic Industries
+FMC,Basic Industries
+FBHS,Basic Industries
+FCX,Basic Industries
+IP,Basic Industries
+IFF,Basic Industries
+JEC,Basic Industries
+LEN,Basic Industries
+LYB,Basic Industries
+MLM,Basic Industries
+MAS,Basic Industries
+MON,Basic Industries
+MOS,Basic Industries
+NEM,Basic Industries
+NUE,Basic Industries
+PPG,Basic Industries
+PX,Basic Industries
+PG,Basic Industries
+SEE,Basic Industries
+SRCL,Basic Industries
+VMC,Basic Industries
+A,Capital Goods
+APH,Capital Goods
+ARNC,Capital Goods
+BA,Capital Goods
+BWA,Capital Goods
+CAT,Capital Goods
+DHI,Capital Goods
+DHR,Capital Goods
+DE,Capital Goods
+DLPH,Capital Goods
+FLIR,Capital Goods
+FLS,Capital Goods
+F,Capital Goods
+FTV,Capital Goods
+GRMN,Capital Goods
+GD,Capital Goods
+GM,Capital Goods
+GPC,Capital Goods
+HRS,Capital Goods
+HON,Capital Goods
+ILMN,Capital Goods
+IR,Capital Goods
+KLAC,Capital Goods
+MTD,Capital Goods
+NOC,Capital Goods
+PCAR,Capital Goods
+PH,Capital Goods
+PKI,Capital Goods
+PHM,Capital Goods
+PWR,Capital Goods
+RTN,Capital Goods
+ROK,Capital Goods
+COL,Capital Goods
+ROP,Capital Goods
+SNA,Capital Goods
+SWK,Capital Goods
+TXT,Capital Goods
+TMO,Capital Goods
+TDG,Capital Goods
+UTX,Capital Goods
+WAT,Capital Goods
+XYL,Capital Goods
+MO,Consumer Non-Durables
+ADM,Consumer Non-Durables
+CPB,Consumer Non-Durables
+CTAS,Consumer Non-Durables
+KO,Consumer Non-Durables
+CL,Consumer Non-Durables
+CAG,Consumer Non-Durables
+STZ,Consumer Non-Durables
+COTY,Consumer Non-Durables
+DPS,Consumer Non-Durables
+EL,Consumer Non-Durables
+GIS,Consumer Non-Durables
+HOG,Consumer Non-Durables
+HAS,Consumer Non-Durables
+HSY,Consumer Non-Durables
+HRL,Consumer Non-Durables
+SJM,Consumer Non-Durables
+K,Consumer Non-Durables
+KHC,Consumer Non-Durables
+LUK,Consumer Non-Durables
+MAT,Consumer Non-Durables
+MKC,Consumer Non-Durables
+KORS,Consumer Non-Durables
+TAP,Consumer Non-Durables
+MDLZ,Consumer Non-Durables
+MNST,Consumer Non-Durables
+NKE,Consumer Non-Durables
+PEP,Consumer Non-Durables
+PM,Consumer Non-Durables
+RL,Consumer Non-Durables
+PVH,Consumer Non-Durables
+SYY,Consumer Non-Durables
+TEL,Consumer Non-Durables
+TSN,Consumer Non-Durables
+UA,Consumer Non-Durables
+UAA,Consumer Non-Durables
+VFC,Consumer Non-Durables
+AAP,Consumer Services
+ARE,Consumer Services
+ALLE,Consumer Services
+AMZN,Consumer Services
+AIV,Consumer Services
+AZO,Consumer Services
+AVB,Consumer Services
+BBY,Consumer Services
+HRB,Consumer Services
+BXP,Consumer Services
+CCL,Consumer Services
+CBS,Consumer Services
+CHTR,Consumer Services
+CMG,Consumer Services
+CMCSA,Consumer Services
+COST,Consumer Services
+CCI,Consumer Services
+DRI,Consumer Services
+DLR,Consumer Services
+DISCA,Consumer Services
+DISCK,Consumer Services
+DISH,Consumer Services
+DG,Consumer Services
+DLTR,Consumer Services
+DRE,Consumer Services
+EQIX,Consumer Services
+EQR,Consumer Services
+ESS,Consumer Services
+EXPE,Consumer Services
+EXR,Consumer Services
+FAST,Consumer Services
+FRT,Consumer Services
+FL,Consumer Services
+GPS,Consumer Services
+IT,Consumer Services
+GGP,Consumer Services
+GWW,Consumer Services
+HBI,Consumer Services
+HCP,Consumer Services
+HLT,Consumer Services
+HD,Consumer Services
+HST,Consumer Services
+IRM,Consumer Services
+JCI,Consumer Services
+KIM,Consumer Services
+KSS,Consumer Services
+KR,Consumer Services
+LB,Consumer Services
+LKQ,Consumer Services
+LOW,Consumer Services
+MAC,Consumer Services
+M,Consumer Services
+MAR,Consumer Services
+MCD,Consumer Services
+MGM,Consumer Services
+MAA,Consumer Services
+NFLX,Consumer Services
+NWSA,Consumer Services
+NWS,Consumer Services
+JWN,Consumer Services
+ORLY,Consumer Services
+PAYX,Consumer Services
+PLD,Consumer Services
+PSA,Consumer Services
+O,Consumer Services
+REG,Consumer Services
+ROST,Consumer Services
+RCL,Consumer Services
+SNI,Consumer Services
+SHW,Consumer Services
+SIG,Consumer Services
+SPG,Consumer Services
+SLG,Consumer Services
+SBUX,Consumer Services
+TGT,Consumer Services
+TIF,Consumer Services
+TWX,Consumer Services
+TJX,Consumer Services
+TSCO,Consumer Services
+FOXA,Consumer Services
+FOX,Consumer Services
+UDR,Consumer Services
+ULTA,Consumer Services
+VTR,Consumer Services
+VIAB,Consumer Services
+VNO,Consumer Services
+WMT,Consumer Services
+DIS,Consumer Services
+HCN,Consumer Services
+WY,Consumer Services
+WYN,Consumer Services
+WYNN,Consumer Services
+YUM,Consumer Services
+APC,Energy
+ANDV,Energy
+APA,Energy
+BHGE,Energy
+COG,Energy
+CHK,Energy
+CVX,Energy
+XEC,Energy
+CXO,Energy
+COP,Energy
+CMI,Energy
+DVN,Energy
+EMR,Energy
+EOG,Energy
+EQT,Energy
+XOM,Energy
+GE,Energy
+HAL,Energy
+HP,Energy
+HES,Energy
+MRO,Energy
+MPC,Energy
+NOV,Energy
+NFX,Energy
+OXY,Energy
+PSX,Energy
+PXD,Energy
+RRC,Energy
+SLB,Energy
+FTI,Energy
+VLO,Energy
+AMG,Finance
+AFL,Finance
+ALL,Finance
+AXP,Finance
+AIG,Finance
+AMP,Finance
+AON,Finance
+AJG,Finance
+AIZ,Finance
+BAC,Finance
+BK,Finance
+BBT,Finance
+BLK,Finance
+BHF,Finance
+COF,Finance
+CBOE,Finance
+CBG,Finance
+SCHW,Finance
+CB,Finance
+CINF,Finance
+C,Finance
+CFG,Finance
+CME,Finance
+CMA,Finance
+DFS,Finance
+ETFC,Finance
+EFX,Finance
+RE,Finance
+FITB,Finance
+BEN,Finance
+GS,Finance
+HIG,Finance
+HBAN,Finance
+ICE,Finance
+IVZ,Finance
+JPM,Finance
+KEY,Finance
+LNC,Finance
+L,Finance
+MTB,Finance
+MMC,Finance
+MET,Finance
+MCO,Finance
+MS,Finance
+NDAQ,Finance
+NAVI,Finance
+NTRS,Finance
+PBCT,Finance
+PNC,Finance
+PFG,Finance
+PGR,Finance
+PRU,Finance
+RJF,Finance
+RF,Finance
+SPGI,Finance
+STT,Finance
+STI,Finance
+SYF,Finance
+TROW,Finance
+TMK,Finance
+TRV,Finance
+USB,Finance
+UNM,Finance
+WFC,Finance
+WLTW,Finance
+XL,Finance
+ZION,Finance
+MMM,Health Care
+ABT,Health Care
+ABBV,Health Care
+AET,Health Care
+ALXN,Health Care
+ALGN,Health Care
+AGN,Health Care
+ABC,Health Care
+AMGN,Health Care
+ANTM,Health Care
+BCR,Health Care
+BAX,Health Care
+BDX,Health Care
+BIIB,Health Care
+BSX,Health Care
+BMY,Health Care
+CAH,Health Care
+CELG,Health Care
+CNC,Health Care
+CI,Health Care
+COO,Health Care
+CVS,Health Care
+DVA,Health Care
+XRAY,Health Care
+EW,Health Care
+EVHC,Health Care
+ESRX,Health Care
+GILD,Health Care
+HCA,Health Care
+HSIC,Health Care
+HOLX,Health Care
+HUM,Health Care
+IDXX,Health Care
+INCY,Health Care
+ISRG,Health Care
+JNJ,Health Care
+LH,Health Care
+LLY,Health Care
+MCK,Health Care
+MDT,Health Care
+MRK,Health Care
+MYL,Health Care
+PDCO,Health Care
+PRGO,Health Care
+PFE,Health Care
+DGX,Health Care
+REGN,Health Care
+RMD,Health Care
+SYK,Health Care
+UNH,Health Care
+UHS,Health Care
+VAR,Health Care
+VRTX,Health Care
+WBA,Health Care
+ZBH,Health Care
+ZTS,Health Care
+AKAM,Miscellaneous
+ADS,Miscellaneous
+EBAY,Miscellaneous
+FIS,Miscellaneous
+GPN,Miscellaneous
+MA,Miscellaneous
+NLSN,Miscellaneous
+PYPL,Miscellaneous
+PCLN,Miscellaneous
+TSS,Miscellaneous
+V,Miscellaneous
+WU,Miscellaneous
+LNT,Public Utilities
+AEE,Public Utilities
+AEP,Public Utilities
+AWK,Public Utilities
+T,Public Utilities
+CNP,Public Utilities
+CTL,Public Utilities
+CMS,Public Utilities
+ED,Public Utilities
+D,Public Utilities
+DTE,Public Utilities
+DUK,Public Utilities
+EIX,Public Utilities
+ETR,Public Utilities
+ES,Public Utilities
+EXC,Public Utilities
+FE,Public Utilities
+KMI,Public Utilities
+NEE,Public Utilities
+NI,Public Utilities
+NRG,Public Utilities
+OKE,Public Utilities
+PCG,Public Utilities
+PNW,Public Utilities
+PPL,Public Utilities
+PEG,Public Utilities
+RSG,Public Utilities
+SCG,Public Utilities
+SRE,Public Utilities
+SO,Public Utilities
+VZ,Public Utilities
+WM,Public Utilities
+WEC,Public Utilities
+WMB,Public Utilities
+XEL,Public Utilities
+LNT,Public Utilities
+AEE,Public Utilities
+AEP,Public Utilities
+AWK,Public Utilities
+T,Public Utilities
+CNP,Public Utilities
+CTL,Public Utilities
+CMS,Public Utilities
+ED,Public Utilities
+D,Public Utilities
+DTE,Public Utilities
+DUK,Public Utilities
+EIX,Public Utilities
+ETR,Public Utilities
+ES,Public Utilities
+EXC,Public Utilities
+FE,Public Utilities
+KMI,Public Utilities
+NEE,Public Utilities
+NI,Public Utilities
+NRG,Public Utilities
+OKE,Public Utilities
+PCG,Public Utilities
+PNW,Public Utilities
+PPL,Public Utilities
+PEG,Public Utilities
+RSG,Public Utilities
+SCG,Public Utilities
+SRE,Public Utilities
+SO,Public Utilities
+VZ,Public Utilities
+WM,Public Utilities
+WEC,Public Utilities
+WMB,Public Utilities
+XEL,Public Utilities
+EXC,Public Utilities
+FFIV,Technology
+FB,Technology
+FE,Public Utilities
+FISV,Technology
+HPE,Technology
+INFO,Technology
+ITW,Technology
+INTC,Technology
+IBM,Technology
+IPG,Technology
+INTU,Technology
+JNPR,Technology
+KMI,Public Utilities
+LLL,Technology
+LRCX,Technology
+MCHP,Technology
+MU,Technology
+MSFT,Technology
+MSI,Technology
+NTAP,Technology
+NEE,Public Utilities
+NI,Public Utilities
+NRG,Public Utilities
+NVDA,Technology
+OMC,Technology
+OKE,Public Utilities
+ORCL,Technology
+PNR,Technology
+PCG,Public Utilities
+PNW,Public Utilities
+PPL,Public Utilities
+PEG,Public Utilities
+QRVO,Technology
+QCOM,Technology
+RHT,Technology
+RSG,Public Utilities
+RHI,Technology
+CRM,Technology
+SCG,Public Utilities
+STX,Technology
+SRE,Public Utilities
+SWKS,Technology
+SO,Public Utilities
+SYMC,Technology
+SNPS,Technology
+TXN,Technology
+TRIP,Technology
+URI,Technology
+VRSN,Technology
+VRSK,Technology
+VZ,Public Utilities
+WM,Public Utilities
+WEC,Public Utilities
+WDC,Technology
+WMB,Public Utilities
+XEL,Public Utilities
+XRX,Technology
+XLNX,Technology
+ACN,Miscellaneous
+ATVI,Technology
+ADBE,Technology
+AMD,Technology
+GOOGL,Technology
+GOOG,Technology
+ADI,Technology
+ANSS,Technology
+ADSK,Technology
+ADP,Technology
+AVGO,Technology
+CA,Technology
+CERN,Technology
+CSCO,Technology
+CTXS,Technology
+CTSH,Technology
+CSRA,Technology
+DOV,Technology
+DXC,Technology
+ETN,Technology
+EA,Technology
+FFIV,Technology
+FB,Technology
+FISV,Technology
+HPE,Technology
+INFO,Technology
+ITW,Technology
+INTC,Technology
+IBM,Technology
+IPG,Technology
+INTU,Technology
+JNPR,Technology
+LLL,Technology
+LRCX,Technology
+MCHP,Technology
+MU,Technology
+MSFT,Technology
+MSI,Technology
+NTAP,Technology
+NVDA,Technology
+OMC,Technology
+ORCL,Technology
+PNR,Technology
+QRVO,Technology
+QCOM,Technology
+RHT,Technology
+RHI,Technology
+CRM,Technology
+STX,Technology
+SWKS,Technology
+SYMC,Technology
+SNPS,Technology
+TXN,Technology
+TRIP,Technology
+URI,Technology
+VRSN,Technology
+VRSK,Technology
+WDC,Technology
+XRX,Technology
+XLNX,Technology
+ALK,Transportation
+AAL,Transportation
+CHRW,Transportation
+CSX,Transportation
+DAL,Transportation
+EXPD,Transportation
+FDX,Transportation
+JBHT,Transportation
+KSU,Transportation
+NSC,Transportation
+LUV,Transportation
+UNP,Transportation
+UAL,Transportation
+UPS,Transportation

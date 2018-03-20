@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="d3.min.js"></script>
+    <script type="text/javascript" src="scripts/d3/math/trigonometry.js"></script>
+    <script type="text/javascript" src="scripts/d3/svg/arc.js"></script>
+    <script type="text/javascript" src="scripts/d3/core/functor.js"></script>
+    <script type="text/javascript" src="scripts/d3/core/source.js"></script>
+    <script type="text/javascript" src="scripts/d3/core/target.js"></script>
+
+
+    <script type="text/javascript" src="scripts/d3/layout/arc-chord.js"></script>
+    <script type="text/javascript" src="scripts/d3/svg/arc-chord.js"></script>
+
+    <script type="text/javascript" src="scripts/brightpoint/gradients.js"></script>
+<link rel="stylesheet" type="text/css" href="resources/styling.css">
+</head>
+<body>
+
+<div id="bpg" >
+    <div id="mainDiv">
+        <div id="svgDiv"></div>
+        <div id="imgDiv" style="position:absolute; top:50px;">
+            <img id="playPause" src="images/pause_bw.png" width="24" height="24"/>
+        </div>
+
+    </div>
+        <div id="toolTip" class="tooltip" style="opacity:0; position:absolute;">
+            <div id="header1" class="header3"></div>
+            <div class="header-rule"></div>
+            <div id="head" class="header"></div>
+            <div class="header-rule"></div>
+            <div  id="header2" class="header2"></div>
+            <div  class="tooltipTail"></div>
+        </div>
+
+    </div>
+	<script src="master/master/visdock.js"></script>   
+	<script src="definitionMainElement.js"></script>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="globals.js"></script>
+    <script type="text/javascript" src="scripts/app/initialize.js"></script>
+    <script type="text/javascript" src="scripts/app/events.js"></script>
+    <script type="text/javascript" src="scripts/app/_buildChords.js"></script>
+    <script type="text/javascript" src="update.js"></script>
+    <script type="text/javascript" src="eventHandlers.js"></script>
+
+</body>
+</html>
